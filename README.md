@@ -1,2 +1,2 @@
 # Project-Hook
-free combat warriors script
+use the new loadstring, this one will be removed soon
