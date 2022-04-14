@@ -1,6 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Project Hook";
-    Text = "Loadstring is changing. Find the new one in discord or check your clipboard.";
+    Text = "Loadstring is changing. Find the new one in discord(A6N3nJeEsR) or check your clipboard.";
     Duration = 15;
 })
 
