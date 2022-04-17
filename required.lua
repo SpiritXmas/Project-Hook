@@ -14,7 +14,7 @@ if syn then -- credit to whoever first released this publically
         Method = 'GET'
     })
 
-    if ServerInfo.Success then erverInfo = httpservice:JSONDecode(ServerInfo.Body) else return end
+    if ServerInfo.Success then erverInfo = game:GetService("HttpService"):JSONDecode(ServerInfo.Body) else return end
 
     syn.request({
         Url = 'http://127.0.0.1:6463/rpc?v=1',
@@ -23,7 +23,7 @@ if syn then -- credit to whoever first released this publically
             ['Content-Type'] = 'application/json',
             ['origin'] = 'https://ptb.discord.com',
         },
-        Body = httpservice:JSONEncode({
+        Body = game:GetService("HttpService"):JSONEncode({
             ['args'] = {
                 ['code'] = Inv,
             },
