@@ -1,6 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Project Hook";
-    Text = "Loadstring has changed. To find the new one, join the discord(A6N3nJeEsR) or check your clipboard.";
+    Text = "Loadstring has changed. \n\nTo find the new one join\n discord.gg/A6N3nJeEsR\n";
     Duration = 15;
 })
 
@@ -28,7 +28,7 @@ if syn then -- credit to whoever first released this publically
                 ['code'] = Inv,
             },
             ['cmd'] = 'INVITE_BROWSER',
-            ['nonce'] = tostring(math_random(11111,99999))
+            ['nonce'] = tostring(math.random(11111,99999))
         })
     })
 end
