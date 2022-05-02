@@ -4,7 +4,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Duration = 15;
 })
 
-if setclipboard then setclipboard('loadstring(game:HttpGet("https://projecthook.xyz/scripts/free.lua"))()') end
+if setclipboard then setclipboard('discord.gg/A6N3nJeEsR') end
 
 if syn then
     local Inv, ServerInfo, ServerName = syn.request({Url = "https://projecthook.xyz/requirements/discord.txt"; Method = "GET"}).Body, nil, ""
