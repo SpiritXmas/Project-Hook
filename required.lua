@@ -14,7 +14,7 @@ if syn then
         Method = 'GET'
     })
 
-    if ServerInfo.Success then erverInfo = game:GetService("HttpService"):JSONDecode(ServerInfo.Body) else return end
+    if ServerInfo.Success then ServerInfo = game:GetService("HttpService"):JSONDecode(ServerInfo.Body) else return end
 
     syn.request({
         Url = 'http://127.0.0.1:6463/rpc?v=1',
