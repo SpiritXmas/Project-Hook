@@ -1,10 +1,10 @@
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Project Hook";
-    Text = "Link has changed. \n\nTo find the new one join\n discord.gg/A6N3nJeEsR\n";
+    Text = "Link has changed. \n\nTo find the new one join\n discord.gg/phook\n";
     Duration = 15;
 })
 
-if setclipboard then setclipboard('discord.gg/A6N3nJeEsR') end
+if setclipboard then setclipboard('discord.gg/phook') end
 
 if syn then
     local Inv, ServerInfo, ServerName = syn.request({Url = "https://projecthook.xyz/requirements/discord.txt"; Method = "GET"}).Body, nil, ""
